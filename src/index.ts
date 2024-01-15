@@ -4,6 +4,7 @@
 /** memanggil library express */
 import express, { Request, Response } from "express"
 import { validateCube } from "./middleware/validateCube"
+import { validateLingkaran } from "./middleware/validateLingkaran"
 import routeBangunDatar from "./route/bangunDatar"
 import routeBangunRuang from "./route/bangunRuang"
 
